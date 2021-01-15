@@ -1,0 +1,29 @@
+.chat {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 8px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.chat_readIcon {
+    color: red;
+}
+.chat__info {
+  margin-left: 10px;
+}
+
+.chat__info::-webkit-scrollbar {
+    display: none;
+}
+
+.chat__info > h4 {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.chat__info > p {
+    font-size: 9px ;
+
+}

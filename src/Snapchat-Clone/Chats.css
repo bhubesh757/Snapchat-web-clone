@@ -1,0 +1,94 @@
+.chats{
+    position: relative;
+    height: 400px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.chats__Search > input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    flex: 1;
+    color: white;
+}
+
+.chats__Search > input::placeholder {
+    color: white;
+    opacity: 1;
+} 
+
+.chats___header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #059ee0;
+    height: 50px;
+    margin-top: -37px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.chats__Avatar {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.chats__Search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 8px;
+}
+ /* can chnage the size of the height to get fix with the box */
+/* you */
+.chats__posts {
+    box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.45);
+    /* height: 359px; */
+    height: 470px;
+    margin-top: -9px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.chats__posts::-webkit-scrollbar {
+    display: none;
+}
+
+.chats__chatIcon {
+    margin-left: -50px;
+}
+
+.takePic__icon {
+    position: absolute;
+    background-color: white;
+    color: gray;
+    font-size: 40px !important;
+    cursor: pointer;
+    bottom: 0;
+    margin-bottom: -90px;
+    left: 80%;
+    transform: translate(-50% -50%);
+    
+}
+
+.takePic__icon::hover {
+    opacity: 0.8;
+}
+
+.chats__searchIcon {
+    color: white;
+    font-size: 13px !important;
+}
+
+.chats__chatIcon {
+    color: white;
+}
